@@ -1,0 +1,16 @@
+ÓRBITA - proyecto para generar el APK
+
+Qué hacer (con una computadora es más fácil):
+1. Creá una cuenta gratis en github.com y un repositorio nuevo (por ejemplo "orbita"), público o privado.
+2. Subí el contenido de esta carpeta al repositorio, incluida la carpeta oculta ".github".
+   Si la web no te deja subir carpetas ocultas: "Add file > Create new file" y escribí
+   .github/workflows/build-apk.yml, y pegá el contenido de ese archivo.
+3. En el repositorio entrá a la pestaña "Actions" > "Build APK" > "Run workflow".
+4. Esperá unos 5 a 10 minutos. Cuando termine en verde, abrí la ejecución y bajá
+   "orbita-apk" (de la sección Artifacts). Es un zip con app-debug.apk adentro.
+5. Pasalo al celular, descomprimilo, tocá el APK y permití "instalar apps de fuentes desconocidas".
+
+Notas:
+- Es un APK de prueba (debug): sirve para instalar en tu celular y compartirlo.
+  Para Play Store hace falta una versión release firmada.
+- El juego necesita internet solo para las tipografías; si no hay, usa otras y funciona igual.
